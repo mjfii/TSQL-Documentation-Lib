@@ -1,0 +1,13 @@
+Package: tsql.documentation
+Title: TSQL Data Definition Documentation
+Version: 0.0.0.9000
+Authors@R: person("Michael", "Flanigan", email = "mick.flanigan@gmail.com", role = c("aut", "cre"))
+Description: The `tsql.documentation` package utilizes the MS SQL metadata to compile, via knitter, a comprehensive and easily navigatable documentation deliverable for database deployments.
+Depends: R (>= 3.3.2)
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    RODBC,
+	rmarkdown
+RoxygenNote: 5.0.1.9000
