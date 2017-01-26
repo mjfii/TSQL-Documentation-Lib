@@ -17,7 +17,7 @@ The two required packages, `rmarkdown` and `RODBC` - both of which are installin
 Using the `devtools` function, install with the below:
 
 ```r
-install_github('TSQL-Documentation','mjfii')
+install_github('mjfii/TSQL-Documentation')
 library('tsql.documentation')
 ```
 
