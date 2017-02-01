@@ -399,7 +399,7 @@ order by convert(hierarchyid,[objectPointer]);
   
   "
   
-  markdown <- sqlQuery(connection, query, stringsAsFactors = FALSE)
+  markdown <- RODBC::sqlQuery(connection, query, stringsAsFactors = FALSE)
   
   return(markdown)  
 }

@@ -11,7 +11,7 @@ get.connection <- function(server, catalog) {
   
   cns <- paste('driver={SQL Server};server=',server,';database=',catalog,';trusted_connection=true', sep = '')
 
-  cnn <- odbcDriverConnect(cns)
+  cnn <- RODBC::odbcDriverConnect(cns)
 
   return(cnn)
 }

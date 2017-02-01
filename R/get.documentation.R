@@ -18,7 +18,7 @@ get.documentation <- function(connection, output.directory, output.file) {
   
   write.table(md, filename, quote = FALSE, row.names = FALSE, col.names = FALSE)
   
-  documentation <- render(filename, output_format = 'pdf_document', output_dir = output.directory, output_file = output.file, quiet = TRUE)
+  documentation <- rmarkdown::render(filename, output_format = 'pdf_document', output_dir = output.directory, output_file = output.file, quiet = TRUE)
   
   close(cnn)
   
