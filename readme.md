@@ -1,4 +1,4 @@
-#T-SQL Data Definition Documentation
+# T-SQL Data Definition Documentation
 
 ---
 
