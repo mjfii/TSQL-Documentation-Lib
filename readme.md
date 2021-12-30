@@ -1,7 +1,5 @@
 # T-SQL Data Definition Documentation
 
----
-
 This R package, `tsql.documentation`, utilizes the MS SQL metadata to compile, via knitter, a comprehensive and easily navigable documentation deliverable for database deployments.
 
 ## Motivation
